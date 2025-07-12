@@ -65,15 +65,17 @@ sudo systemctl enable mongodb
 npm start
 The backend runs at: http://localhost:5000
 ```
+---
 
 
-📝 Development Notes
+## 📝 Development Notes
 This backend runs locally only, no JWT authentication implemented.
 Images are stored in the uploads/ directory.
 Ensure MongoDB is connected on mongodb://127.0.0.1:27017/ecoplatform.
 Use Postman to test API endpoints module by module.
 The frontend will consume these REST APIs for a unified EcoImpact platform.
 
+---
 
-✨ License
+## ✨ License
 This project is for academic and community learning purposes. Feel free to fork and extend with attribution.
