@@ -46,7 +46,6 @@ cd EcoImpact/backend
 
 ```
 npm install
-
 ```
 3. Ensure MongoDB is running
    
@@ -54,13 +53,11 @@ On Garuda Linux (Arch-based):
 
 ```
 sudo systemctl start mongodb
-
 ```
 Optionally enable at boot:
 
 ```
 sudo systemctl enable mongodb
-
 ```
 
 4. Start the backend server
@@ -69,12 +66,14 @@ npm start
 The backend runs at: http://localhost:5000
 ```
 
+
 📝 Development Notes
 This backend runs locally only, no JWT authentication implemented.
 Images are stored in the uploads/ directory.
 Ensure MongoDB is connected on mongodb://127.0.0.1:27017/ecoplatform.
 Use Postman to test API endpoints module by module.
 The frontend will consume these REST APIs for a unified EcoImpact platform.
+
 
 ✨ License
 This project is for academic and community learning purposes. Feel free to fork and extend with attribution.
