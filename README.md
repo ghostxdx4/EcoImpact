@@ -15,7 +15,6 @@ Built with **React + Vite (frontend)** and **Node.js, Express, MongoDB (backend)
 - ✅ Create and join teams to compete on leaderboards  
 - ✅ Upload and map trash posts with images and location data  
 - ✅ Claim and mark trash cleaned  
-- ✅ Local image storage with Multer  
 - ✅ Modular backend with clean data models and routes  
 
 ---
