@@ -35,26 +35,39 @@ Built with **React + Vite (frontend)** and **Node.js, Express, MongoDB (backend)
 
 ### 1. Clone the repository
 
-```bash
+```
 git clone https://github.com/ghostxdx4/EcoImpact.git
 cd EcoImpact/backend 
+```
 
 
 
-2. Install dependencies
+### 2. Install dependencies
+
+```
 npm install
 
+```
 3. Ensure MongoDB is running
+   
 On Garuda Linux (Arch-based):
 
+```
 sudo systemctl start mongodb
+
+```
 Optionally enable at boot:
 
+```
 sudo systemctl enable mongodb
 
+```
+
 4. Start the backend server
+```
 npm start
 The backend runs at: http://localhost:5000
+```
 
 📝 Development Notes
 This backend runs locally only, no JWT authentication implemented.
